@@ -1,0 +1,148 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+span {
+    font-size: 11px;
+    color: #848181
+}
+
+.product-details {
+    display: inline-block;
+    width: 55%;
+    border-right: 1px solid #f5f3f3;
+}
+
+.product-image--wrapper {
+    display: inline-block;
+    width: 44%;
+}
+
+.checkout-options {
+    height: 15vh;
+    border-top: 1px solid #f5f3f3;
+}
+
+.product-header {
+    height: 25vh;
+}
+
+.product-description {
+    height: 55vh;
+}
+
+.product-desc-tabs--divider {
+    margin-left: -5%; 
+    border-top: 1px solid #f5f3f3;
+}
+
+.product-description, .checkout-options, .product-header {
+    padding-left: 5%;
+}
+
+.product-header .product-name--desc{
+    color: #e0dcdc;
+    margin-top: 1%;
+}
+
+.product-header .product-name {
+    margin-bottom: 0%;
+    color: #444242;
+    margin-top: 8%;
+}
+
+.product-header .arrow-back {
+    color: #e0dcdc;
+    font-size: 15px;
+    position: absolute;
+}
+
+.product-header .arrow-back--text {
+    position: relative;
+    top: -3px;
+    left: 20px;
+}
+
+.product-header .arrow-back-wrapper {
+    margin-bottom: unset;
+    margin-top: 5%;
+}
+
+
+.tab {
+    overflow: hidden;
+}
+  
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 16px;
+    padding-right: 12px;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #e0dcdc;
+    font-weight: 700;
+ }
+
+.tab button.highlight {
+    border-bottom: 2px solid #6cc0f5;
+    color: black;
+}
+
+.tab-description .content {
+    padding-top: 2%;
+    font-size: 11px;
+    color: #848181;
+    padding-right: 10%;
+}
+
+.tab-description {
+    height: 100px;
+}
+
+.select-image--options .select-color--input {
+    text-transform: uppercase;
+}
+
+.product-description .select-image--options {
+    width: 20%;
+}
+
+.product-description .price-details {
+    margin-top: 3%;
+    margin-bottom: 7%;
+}
+
+.price-details span {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.price-details .offer-price {
+    color: #000000;
+    margin-right: 3%;
+}
+
+.price-details .actual-price {
+    text-decoration:line-through;
+}
+
+.checkout-options .btn {
+    padding: 2% 10%;
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.product-image--wrapper .product-image{
+    width: 100%;
+    height: 80vh;
+    vertical-align: unset;
+}

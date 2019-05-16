@@ -69,17 +69,5 @@ module.exports = {
     inline: true,
     port: 3003,
     public: PUBLIC_DOMAIN,
-    proxy: [
-      {
-        context: ['/api/*'],
-        target: {
-          host: THIS_SERVER_NAME,
-          protocol: 'http:',
-          port: 8089,
-        },
-        secure: false,
-        changeOrigin: false,
-      },
-    ],
   },
 };
