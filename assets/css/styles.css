@@ -104,7 +104,7 @@ span {
 }
 
 .tab-description {
-    height: 100px;
+    height: 10vh;
 }
 
 .select-image--options .select-color--input {
@@ -112,12 +112,12 @@ span {
 }
 
 .product-description .select-image--options {
-    width: 20%;
+    width: 20vh;
 }
 
 .product-description .price-details {
-    margin-top: 3%;
-    margin-bottom: 7%;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
 }
 
 .price-details span {
@@ -136,7 +136,7 @@ span {
 
 .checkout-options .btn {
     padding: 2% 10%;
-    margin-top: 5%;
+    margin-top: 5vh;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -145,4 +145,40 @@ span {
     width: 100%;
     height: 80vh;
     vertical-align: unset;
+}
+
+@media (min-width:800px) and (max-width: 1400px) {
+    .product-description .price-details {
+        margin-top: 10vh;
+        margin-bottom: 7vh;
+    }
+}
+
+@media (min-width:450px) and (max-width: 799px) {
+    .product-description .price-details {
+        margin-top: 20vh;
+        margin-bottom: 5vh;
+    }
+}
+
+@media (min-width:400px) and (max-width: 450px) {
+    .product-description .price-details {
+        margin-top: 5vh;
+        margin-bottom: 3vh;
+    }
+    .tab-description {
+        height: 25vh;
+        overflow: scroll;
+    }
+}
+
+@media (min-width:325px) and (max-width: 400px) {
+    .tab-description {
+        height: 25vh;
+        overflow: scroll;
+    }
+    .product-description .price-details {
+        margin-top: 5vh;
+        margin-bottom: 3vh;
+    }
 }
