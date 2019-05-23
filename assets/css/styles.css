@@ -225,13 +225,13 @@ h6 {
     }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 369px) {
     .product-image--wrapper {
         margin-top: 27vh;
     }
 }
 
-@media (min-width: 341px) and (max-width: 399px) {
+@media (min-width: 370px) and (max-width: 399px) {
     .product-image--wrapper {
         margin-top: 22vh;
     }
