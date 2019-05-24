@@ -15,8 +15,8 @@ class SelectImageOptions extends React.PureComponent {
       <div className="select-image--options">
         <label className="select-color--input">Colors</label>
         <select className="form-control" onChange={this.handleChange}>
-          <option value="/assets/images/ath-msr7-black.jpg">Black</option>
-          <option value="/assets/images/ath-msr7-brown.jpg">Brown</option>
+          <option value="./assets/images/ath-msr7-black.jpg">Black</option>
+          <option value="./assets/images/ath-msr7-brown.jpg">Brown</option>
         </select>
       </div>
     );

@@ -8,7 +8,7 @@ import CheckoutOptions from './checkout-options.jsx';
 
 class App extends React.PureComponent {
   state = {
-    image: '/assets/images/ath-msr7-black.jpg',
+    image: './assets/images/ath-msr7-black.jpg',
   };
   setImage = url => {
     this.setState({
